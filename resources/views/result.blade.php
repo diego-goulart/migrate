@@ -29,10 +29,9 @@
                     <table class="table table-giro table-striped table-condensed table-hover dataTable">
                         <thead>
                         <tr>
-                            <th>Cod. EAN</th>
+                            <th>Categoria</th>
                             <th>Cod. Pan</th>
-                            <th>Descrição Pan</th>
-                            <th>Cod. Novo</th>
+                            <th>Descrição Atual</th>
                             <th>Descrição Nova</th>
                             <th>Data Alteração</th>
                         </tr>
@@ -45,7 +44,6 @@
                             <td>{{$k[2]}}</td>
                             <td>{{$k[3]}}</td>
                             <td>{{$k[4]}}</td>
-                            <td>{{$k[5]}}</td>
                         </tr>
                         @endforeach
                         </tbody>
